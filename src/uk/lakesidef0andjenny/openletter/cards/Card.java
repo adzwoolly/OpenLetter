@@ -1,30 +1,53 @@
 package uk.lakesidef0andjenny.openletter.cards;
 
+import uk.lakesidef0andjenny.openletter.Player;
+
 /**
- * abstract class representing cards player plays
+ * Abstract class representing cards player plays
  * @author Adam Woollen
  * @author Lewis Blackburn
- * @version 
+ * @author Thavi Tennakoon
+ * @author Jennifer Myers
+ * @version 1.0
  */
 
 public abstract class Card {
-	// title of card
+	// Title of card
 	private String title;
-	// power level of card- the higher the value, the stronger the card
+	// Power level of card- the higher the value, the stronger the card
 	private int level;
-	// what the card does when it is played
-	private Ability ability;
-	// how many times the card appears in the deck of cards
+	// How many times the card appears in the deck of cards
 	private int frequency;
+	// Description of ability
+	private String abilityDesc;
 	
-	// method called when a card is discarded
-	public void act(player);
-	// accessor method for the level of the card
-	public int getLevel(){
+	/**
+	 * Method called when a card is discarded / used
+	 * @param player the player that used this card
+	 */
+	public abstract void act(Player player);
+	
+	/**
+	 *  Accessor method for the level of the card
+	 * @return the level representing how close this card is to the princess
+	 */
+	public final int getLevel(){
 		return level;
 	}
-	// checks if the card is equal to a specified card
+	
+	/**
+	 * Checks if the card is equal to a specified card
+	 * @return true if the two cards are the same
+	 */
 	public boolean equalsCard(){
 		return true;
+	}
+	
+	/**
+	 * Accessor method for the description of what the card does when discarded / used
+	 * @return the description of this card's ability
+	 */
+	public final String getAbilityDesc(){
+		return abilityDesc;
 	}
 }

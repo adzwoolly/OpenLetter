@@ -9,11 +9,11 @@ import uk.lakesidef0andjenny.openletter.cards.GuardCard;
 
 public class GuardCardTests {
 
-	GuardCard guard = new GuardCard();
+	GuardCard guard;
 	
 	@Before
 	public void setup(){
-		
+		guard = new GuardCard();
 	}
 	
 	@Test
