@@ -1,4 +1,4 @@
-package uk.lakesidef0andjenny.openletter.cards;
+package uk.lakesidef0andjenny.openletter.tests;
 
 import static org.junit.Assert.*;
 
@@ -6,6 +6,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import uk.lakesidef0andjenny.openletter.Player;
+import uk.lakesidef0andjenny.openletter.cards.Card;
 
 public class CardTests {
 
