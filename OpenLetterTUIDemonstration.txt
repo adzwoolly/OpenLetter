@@ -1,0 +1,57 @@
+Welcome to Love Letter! 
+Type 'story' to read the story, 'rules' to see the rules, 'game' to play a game and 'exit' to leave the game.
+> game
+How many players are vying for the princess' heart?
+> 4
+What is Player 1's name?
+> Lewis
+What is Player 2's name?
+> Adam
+What is Player 3's name?
+> Jenny
+What is Player 4's name?
+> Thavi
+It's your turn, Lewis. Press Enter.
+Your letter is currently in the hands of the Guard.
+You picked up a Priest! Type 'play [your card]' to play a card and pass your turn or 'detail [your card]' to find out what a card does.
+> detail priest 
+Look at another player's hand.
+> detail guard
+Guess a player's hand. If correct, that player is eliminated out of the game.
+> play guard
+Which player's hand would you like to guess?
+> Jenny
+What card do you think Jenny has?
+> priest
+Jenny does not have a priest.
+It's your turn, Adam. Press Enter.
+Your letter is currently in the hands of the Princess.
+You picked up a King! Type 'play [your card]' to play a card and pass your turn or 'detail [your card]' to find out what a card does.
+> detail princess
+Lose the game if this card is played (does not count if Princess is traded).
+> detail king
+Trade hands with another player.
+> play princess
+The princess has destroyed your letter- you are out of the game!
+It's your turn, Jenny. Press Enter.
+Your letter is currently in the hands of the Guard.
+You picked up a Countess! Type 'play [your card]' to play a card and pass your turn or 'detail [your card]' to find out what a card does.
+> play guard
+Which player's hand would you like to guess?
+> Thavi
+What card do you think Thavi has?
+> priest
+Thavi has a priest! Thavi's letter has been destroyed and they are out of the game.
+It's your turn, Lewis.
+Your letter is currently in the hands of the Priest.
+You picked up a Guard! Type 'play [your card]' to play a card and pass your turn or 'detail [your card]' to find out what a card does.
+> play guard
+Which player's hand would you like to guess?
+> Jenny
+What card do you think Jenny has?
+> countess
+Jenny has a countess! Jenny's letter has been destroyed and they are out of the game.
+Lewis is the only player with a letter- they have won!
+Type 'story' to read the story, 'rules' to see the rules, 'game' to play a game and 'exit' to leave the game.
+> exit
+Goodbye.
