@@ -13,13 +13,13 @@ import uk.lakesidef0andjenny.openletter.Player;
 
 public abstract class Card {
 	// Title of card
-	private String title;
+	protected String title;
 	// Power level of card- the higher the value, the stronger the card
-	private int level;
+	protected int level;
 	// How many times the card appears in the deck of cards
-	private int frequency;
+	protected int frequency;
 	// Description of ability
-	private String abilityDesc;
+	protected String abilityDesc;
 	
 	/**
 	 * Method called when a card is discarded / used
@@ -33,14 +33,6 @@ public abstract class Card {
 	 */
 	public final int getLevel(){
 		return level;
-	}
-	
-	/**
-	 * Checks if the card is equal to a specified card
-	 * @return true if the two cards are the same
-	 */
-	public boolean equalsCard(){
-		return true;
 	}
 	
 	/**

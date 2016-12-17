@@ -17,8 +17,8 @@ public class GuardCardTests {
 	}
 	
 	@Test
-	public void testLevel() {
-		assertEquals(1, guard.getLevel());
+	public void testAbility() {
+		fail("I can put a test here");
 	}
 
 }
