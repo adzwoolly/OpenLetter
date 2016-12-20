@@ -2,6 +2,8 @@ package uk.lakesidef0andjenny.openletter.cards;
 
 import uk.lakesidef0andjenny.openletter.Player;
 
+import java.util.Scanner;
+
 public class BaronCard extends Card {
 
 	public BaronCard(){
@@ -13,8 +15,7 @@ public class BaronCard extends Card {
 	
 	@Override
 	public void act(Player player) {
-		// TODO Auto-generated method stub
-
+		System.out.println("Name the player you wish to compare hands with. \n");
 	}
 
 }

@@ -13,8 +13,7 @@ public class CountessCard extends Card {
 	
 	@Override
 	public void act(Player player) {
-		// TODO Auto-generated method stub
-
+		// does nothing as the check if the player has the king or the prince is done in act method
 	}
 
 }

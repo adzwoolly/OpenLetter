@@ -13,8 +13,7 @@ public class PriestCard extends Card {
 	
 	@Override
 	public void act(Player player) {
-		// TODO Auto-generated method stub
-		
+		System.out.println(player.getPlayerName() + " currently has " + player.getCurrentCard() + " in their hand.");
 	}
 
 }

@@ -13,8 +13,7 @@ public class PrincessCard extends Card {
 	
 	@Override
 	public void act(Player player) {
-		// TODO Auto-generated method stub
-
+		player.setIn(false);
 	}
 
 }

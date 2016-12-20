@@ -13,8 +13,7 @@ public class HandmaidCard extends Card {
 	
 	@Override
 	public void act(Player player) {
-		// TODO Auto-generated method stub
-
+		player.setProtected(true);
 	}
 
 }

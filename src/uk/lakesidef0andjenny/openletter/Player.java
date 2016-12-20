@@ -76,6 +76,14 @@ public class Player {
 		this.isIn = isIn;
 	}
 	
+	
+	/**
+	 * mutator to change if a player is protected
+	 */
+	public void setProtected(boolean isProtected){
+		this.isProtected = isProtected;
+	}
+	
 	/**
 	 * String representation of player information
 	 */
